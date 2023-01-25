@@ -1,0 +1,12 @@
+POST   http://127.0.0.1:5000/employe/add
+Content-Type: application/json
+
+{
+    "name" : "lui",
+    "creation_date" : "2/12/2000",
+    "city" : "city",
+    "manager" :"manager",
+    "max_salary" :"max_salary",
+    "mean_salary" : "mean_salary",
+    "min_salary" :"min_salary"
+}
